@@ -1,22 +1,90 @@
 <!doctype html>
 <html>
 <head>
-  <title>업무 능력</title>
+  <title>웹 프로그래밍 기반 포토폴리오</title>
   <meta charset="utf-8">
+  <style>
+
+  body{
+    background: url("back.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: local;
+    background-clip: content-box;
+    margin:0;
+  }
+  a {
+    color:black;
+  }
+  h3 {
+    font-size: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:10px;
+  }
+  ol{
+    border-right:1px solid gray;
+    width:150px;
+    margin:0;
+    padding:20px;
+    padding-left:30px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #article{
+    padding-left:27px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    ol{
+      border-right:none;
+    }
+    h3 {
+    border-bottom:none;
+    }
+  }
+  </style>
 </head>
 <body>
-  <h1><a href="index.html">목차</a></h1>
+  <h3><a href="index.html">나만의 포토폴리오</a></h3>
+    <div id="grid">
   <ol>
+    <h1><a href="index.html">목차</a></h1>
     <li><a href="web.html">자기소개</a></li>
-    <li><a href="web2.html">커뮤니케이션 같은 능력??</a></li>
+    <li><a href="web2.html">커뮤니케이션</a></li>
     <li><a href="web3.html">업무 처리 능력</a></li>
-    <li><a href="web4.html">비전 이나 내 커리어</a></li>
+    <li><a href="web4.html">비전or커리어</a></li>
+      <li><a href="web4.html">과제랑 별개로 느낀점</a></li>
 </ol>
+<div id="article">
 <h2>업무 처리 능력</h2>
 <p>
-숙련도 상중하 정도
+  언제나 노력하는 개발자<br><br>
+꼼꼼함  ⭐⭐⭐⭐⭐<br><br>
+과거에 전산회계도 했던 경험으로 매우 꼼꼼합니다.<br>
+꼼꼼한 성격으로 인해 1번 코딩할때마다 오류가 덜 작동하는 효과를 불러 올 수 있습니다.<br><br>
+
+끈기  ⭐⭐⭐⭐⭐<br><br>
+완벽주의자의 성향이 있는 개발자로서 시작한 일은 끝을 봐야하는 성격을 가지고 있습니다.<br><br>
+
+성실함 중 ⭐⭐⭐⭐☆<br><br>
+약간 게으르지만 해야할 일은 합니다.<br><br>
+
+++ DB도 다룰수있습니다.<br>
+
+
 </p>
+</div>
+</div>
 
-
-<img src="portfolio.jpg" width="200">
 </body>

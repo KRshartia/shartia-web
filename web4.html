@@ -1,22 +1,86 @@
 <!doctype html>
 <html>
 <head>
-  <title>커리어</title>
+  <title>웹 프로그래밍 기반 포토폴리오</title>
   <meta charset="utf-8">
+  <style>
+
+  body{
+    background: url("back.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: local;
+    background-clip: content-box;
+    margin:0;
+  }
+  a {
+    color:black;
+  }
+  h3 {
+    font-size: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:10px;
+  }
+  ol{
+    border-right:1px solid gray;
+    width:150px;
+    margin:0;
+    padding:20px;
+    padding-left:30px;
+  }
+  a{
+    text-decoration: none;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+  #article{
+    padding-left:27px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    ol{
+      border-right:none;
+    }
+    h3 {
+    border-bottom:none;
+    }
+  }
+  </style>
 </head>
 <body>
-  <h1><a href="index.html">목차</a></h1>
+  <h3><a href="index.html">나만의 포토폴리오</a></h3>
+    <div id="grid">
   <ol>
+    <h1><a href="index.html">목차</a></h1>
     <li><a href="web.html">자기소개</a></li>
-    <li><a href="web2.html">커뮤니케이션 같은 능력??</a></li>
+    <li><a href="web2.html">커뮤니케이션</a></li>
     <li><a href="web3.html">업무 처리 능력</a></li>
-    <li><a href="web4.html">비전 이나 내 커리어</a></li>
+    <li><a href="web4.html">비전or커리어</a></li>
+      <li><a href="web4.html">과제랑 별개로 느낀점</a></li>
 </ol>
-<h2>커리어/비전</h2>
+<div id="article">
+<h2>커리어or비전</h2>
 <p>
-비전이나 목표 10년뒤 모습
+T자형 개발자를 꿈꾸는 초보 개발자<br><br>
+아직은 부족하지만 더 노력하고 발전하여
+<table>
+  <tr>
+    <td><img alt="" src="python.jpg"width="200" /></td><td><img alt="" src="jssc.jpg"width="200"/></td><td><img alt="" src="cpluss.jpg"width="200"/></td>
+    <tr>
+    </table>
+
+파이썬 자바스크립트 C++ 3개의 언어 정도는 다룰 수 있는 개발자가 되는게 제 목표입니다.
+
 </p>
+</div>
+</div>
 
-
-<img src="portfolio.jpg" width="200">
 </body>
